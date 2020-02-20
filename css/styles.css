@@ -7,7 +7,7 @@ body{
     text-align: center;
     font-size: larger;
 }
-#about-us{
+#about-us, #service{
     font-size: 70px;
 }
 .welcome{
@@ -20,4 +20,5 @@ body{
     background-image: url(/img/backgrounds/s_image.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
 }
