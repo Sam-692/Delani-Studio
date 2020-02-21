@@ -1,15 +1,32 @@
-// $("#con").click(function(){
-//     $(".design-hide").toggle();
-//     $(".design-show").toggle();
-//   });
-// $(document).ready(function() {
-//     $("#con").click(function (){
-//         $("#pin").show();
-//     });
-
-// });
 $(document).ready(function(){
-     $(".clik").click(function(){
+    $(".con").click(function(){
+        $(this).hide();
         $(".pin").show();
-      });
+        });
+        $(".pin").click(function(){
+            $(this).hide();
+            $(".con").show();
+            });
     });
+
+    $(document).ready(function(){
+        $(".dev").click(function(){
+            $(this).hide();
+            $(".dev-p").show();
+            });
+            $(".dev-p").click(function(){
+                $(this).hide();
+                $(".dev").show();
+                });
+        });
+
+        $(document).ready(function(){
+            $(".dev").click(function(){
+                $(this).hide();
+                $(".dev-p").show();
+                });
+                $(".dev-p").click(function(){
+                    $(this).hide();
+                    $(".dev").show();
+                    });
+            });
