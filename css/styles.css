@@ -7,7 +7,7 @@ body{
     text-align: center;
     font-size: larger;
 }
-#about-us, #service{
+#about-us, #service, {
     font-size: 50px;
 }
 .welcome{
