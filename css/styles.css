@@ -22,3 +22,6 @@ body{
     background-position: center;
     color: white;
 }
+.pin{
+    display: none;
+}
