@@ -9,7 +9,7 @@ $(document).ready(function(){
             });
     });
 
-    $(document).ready(function(){
+ $(document).ready(function(){
         $(".dev").click(function(){
             $(this).hide();
             $(".dev-p").show();
@@ -20,7 +20,7 @@ $(document).ready(function(){
                 });
         });
 
-        $(document).ready(function(){
+ $(document).ready(function(){
             $(".dev").click(function(){
                 $(this).hide();
                 $(".dev-p").show();
@@ -30,3 +30,13 @@ $(document).ready(function(){
                     $(".dev").show();
                     });
             });
+$(document).ready(function(){
+            $(".dev").click(function(){
+                $(this).hide();
+                $(".dev-p").show();
+                });
+                $(".dev-p").click(function(){
+                $(this).hide();
+                $(".dev").show();
+                });
+                });
