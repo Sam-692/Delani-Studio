@@ -8,13 +8,13 @@ body{
     font-size: larger;
 }
 #about-us, #service{
-    font-size: 70px;
+    font-size: 50px;
 }
 .welcome{
-    font-size: 70px;
+    font-size: 50px;
 }
 .paragraph{
-    font-size: 25px;
+    font-size: 20px;
 }
 #services{
     background-image: url(/img/backgrounds/s_image.jpg);
@@ -22,13 +22,16 @@ body{
     background-position: center;
     color: white;
 }
-.pin{
-    display: none;
-}
 .contact{
     background-image: url(/img/backgrounds/c_image.jpg);
 }
 form.contact-us {
     background: transparent;
     padding-top: 20px;
+}
+#about{
+    text-align: center;
+}
+#service{
+    text-align: center;
 }
