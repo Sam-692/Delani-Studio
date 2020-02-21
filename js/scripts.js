@@ -31,12 +31,12 @@ $(document).ready(function(){
                     });
             });
 $(document).ready(function(){
-            $(".dev").click(function(){
+            $(".prod-man").click(function(){
                 $(this).hide();
-                $(".dev-p").show();
+                $(".prod-man-p").show();
                 });
-                $(".dev-p").click(function(){
+                $(".prod-man-p").click(function(){
                 $(this).hide();
-                $(".dev").show();
+                $(".prod-man").show();
                 });
                 });
