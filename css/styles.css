@@ -25,3 +25,10 @@ body{
 .pin{
     display: none;
 }
+.contact{
+    background-image: url(/img/backgrounds/c_image.jpg);
+}
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
