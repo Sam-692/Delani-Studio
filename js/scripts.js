@@ -41,11 +41,3 @@ $(document).ready(function(){
                 });
                 });
 
-                $(document).ready(function() {
-                    $("#main").mouseenter(function() {
-                               $("#overlay").show();
-                    });
-                    $("#main").mouseleave(function() {
-                               $("#overlay").hide();
-                    });
-                });
