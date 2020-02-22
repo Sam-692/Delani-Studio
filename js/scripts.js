@@ -41,17 +41,11 @@ $(document).ready(function(){
                 });
                 });
 
-                // $(".imag1").mouseenter(function(){
-                //     $(".imag1-par").show();
-                // });
-                // $(".imag1").mouseleave(function(){
-                //     $(".imag1-par").hide();
-                // });
-
-                // $(document).ready(function(){
-                //     $(".imag1").mouseenter(function(){
-                //         $(this).hover();
-                //         $(".imag1-par").show();
-                //         });
-                //     });
-                
+                $(document).ready(function() {
+                    $("#main").mouseenter(function() {
+                               $("#overlay").show();
+                    });
+                    $("#main").mouseleave(function() {
+                               $("#overlay").hide();
+                    });
+                });

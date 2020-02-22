@@ -3,17 +3,19 @@
     text-align: center;
     color: white;
     width: 100%;
+    font-family: 'Akronim';
 }
 body{
     text-align: center;
-    font-size: larger;
+    font-size: 50px;
     overflow-x: hidden;
+    font-family: 'Akronim';
 }
 #about-us, #service, .welcome{
-    font-size: 50px;
+    font-size: 70px;
 }
 .paragraph{
-    font-size: 23px;
+    font-size: 30px;
 }
 #services{
     background-image: url(/img/backgrounds/s_image.jpg);
@@ -46,6 +48,7 @@ input, textarea{
 }
 .cont, textarea{
     color: white;
+    font-size: 70px;
 
 }
 
@@ -70,17 +73,26 @@ input, textarea{
   }
   .col-md-3:hover {
     opacity: 0.6;
-    color: white;
+    color: black;
   }
   
   .col-md-3:hover .mask {
     opacity: 1;
-    color: white;
+    color: black;
   }
   
   .imag1-par {
-    background-color:grey;
-    color: white;
+    background-color:white;
+    color:black;
     font-size: 16px;
     padding: 16px 32px;
+  }
+  .cla-ss{
+    font-family: 'Akronim';
+  }
+  .what-we-do{
+      font-size: 70px;
+  }
+  .col-md-4{
+      font-size: 30px;
   }
