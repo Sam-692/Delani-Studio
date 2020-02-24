@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="https://bit.ly/2V9IPjB">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">
+
 
 </head>
-<body>
+<body class="cla-ss">
     <header id="home"> <br> <br> <br> <br> <br><br>
     <div class="row" id="top"> <br> <br> <br> <br> <br><br>
         <div class="col-md-12"><img src="img/logo/logo.png" alt="logo"></div><br><br>
         <div class="col-md-12"><h1 class="welcome">WELCOME</h1></div> <br><br>
         <div class="col-md-12"><h1 class="welcome">TO DELANI STUDIO</h1></div><br><br>
-        <div class="col-md-12"><p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p></div> <br> <br> <br>
+        <div class="col-md-12"><p class="amazing">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p></div> <br> <br> <br>
         <div class="col-md-12"><a href="#about"><img src="img/mouse_click.png" alt="Mouse"></a></div> <br> <br> <br><br> <br> <br>
     </div>
     </header> <br> <br> <br>
@@ -36,32 +38,34 @@
                 The outcome of this scoping session is proposal or high-level statement of work. <br>
                 Based on your requirements, we can provide a complete offering or just the pieces you need. <br>
             </p>
-           <br><br> 
-           </div>
+           <br><br>           
+          </div>
         </p>
-    </div> <br><br><br><br><br>
+    </div> <br><br>
     <div class="what">
       <h2 class="what-we-do">What we do</h2> <br><br> 
         <div class="row">
             <div class="col-md-4">
-                <img src="img/services_icons/design_icon.png" class="con" alt="design">
+                <img src="img/services_icons/design_icon.png" id="con1" class="con" alt="design">
+                <div id="conned">
                 <h2 class="clik">Design</h2>
-                <p class="pin">Our design practice offers a full range of services including brand <br>strategy, interaction and visual design and user experience testing. <br>Throughout your project, our designers create and implement visual<br> design and workflows, solicit
-                user feedback and work with you to <br>make sure what gets built is what is needed.</p>
+                <p class="pin">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
+                user feedback and work with you to make sure what gets built is what is needed.</p>
+              </div>
             </div>
             <div class="col-md-4">
                 <img src="img/services_icons/dev_icon.png"  class="dev" alt="design">
                 <h2>Development</h2>
                 <p class="dev-p">
-                    All engineers are fluent in the latest enterprise, <br> mobile and web development technologies. They <br> collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such <br> as test-driven development and
-                    pair <br> programming.
+                    All engineers are fluent in the latest enterprise,  mobile and web development technologies. They collaborate with your team to write, and improve  code on a daily basis, using proven practices such  as test-driven development and
+                    pair programming.
                 </p>
             </div>
             <div class="col-md-4">
                 <img src="img/services_icons/product_icon.png" class="prod-man" alt="design">
                 <h2>Product Management</h2>
                 <p class="prod-man-p">
-                    Planning and development is iterative. Because <br> we are constantly coding and testing, the <br> products we build are always ready to go live. <br> This iterative process allows for changes as <br> business requirements evolve.
+                    Planning and development is iterative. Because  we are constantly coding and testing, the  products we build are always ready to go live.  This iterative process allows for changes as  business requirements evolve.
                 </p>
             </div>
         </div>
@@ -71,11 +75,11 @@
          <div class="row">
 
            <div class="col-md-3">
-              <img src="img/portfolio/work4.jpg" class="imag1" alt="sample image"/>
+              <img src="img/portfolio/work4.jpg" class="imag1" alt="sample image" id="don"/>
               <div class="mask">
-                <p class="imag1-par"><b>Grey Color</b></p>
+                <p class="imag1-par"><b id="don1">Grey Color</b></p>
               </div>
-           </div> <br> <br><br><br><br> <br><br><br><br> <br><br><br>
+           </div> <br> <br><br><br><br> <br><br><br><br> <br><br>
 
            <div class="col-md-3">
               <img src="img/portfolio/work3.jpg" class="imag1" alt="sample image"/>
@@ -94,7 +98,7 @@
            <div class="col-md-3">
               <img src="img/portfolio/work1.jpg" class="imag1" alt="sample image"/>
               <div class="mask">
-                <p class="imag1-par"><b>Movie Web</b></p>
+                <p class="imag1-par"><b>Movie Web</b></p> <br><br><br><br>
               </div>
            </div> <br><br><br>
 
@@ -130,14 +134,14 @@
      </div>  <br><br><br><br>
      <div class="contact">
         <h2 class="cont">Contact Us</h2>
-        <form action="">
+        <form action="https://github.us4.list-manage.com/subscribe/post?u=751b906c3d516fbeeac7a5df9&amp;id=9b6286b686" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class="row">
             <div class="col-md-6"><input type="text" id="your-name" name="your-name" placeholder="name.."><br></div>
             <div class="col-md-6"><input type="email" id="your-email" name="your-email" placeholder="email..."><br></div>
           </div> <br><br><br>
           <div class="row">
             <div class="col-md-12"><textarea name="sam" id="your-text" cols="100" rows="10" placeholder="your message here...."></textarea></div>
-            <div class="col-md-12"><button type="submit" class="button" onclick="">Submit</button> <br> <br> <br></div>
+            <div class="col-md-12"><button type="submit" class="button" onclick="submission()">Submit</button> <br> <br> <br></div>
           </div>
         </form>
     </div><br><br><br>
@@ -156,6 +160,7 @@
 
             <p>Delani studio 2019</p>
         </footer>
+        </div>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="/js/scripts.js"></script>
 </body>

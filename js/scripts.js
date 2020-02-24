@@ -1,13 +1,13 @@
-$(document).ready(function(){
-    $(".con").click(function(){
-        $(this).hide();
-        $(".pin").show();
-        });
-        $(".pin").click(function(){
-            $(this).hide();
-            $(".con").show();
-            });
-    });
+// $(document).ready(function(){
+//     $(".con").click(function(){
+//         $(this).hide();
+//         $(".pin").show();
+//         });
+//         $(".pin").click(function(){
+//             $(this).hide();
+//             $(".con").show();
+//             });
+//     });
 
  $(document).ready(function(){
         $(".dev").click(function(){
@@ -19,6 +19,12 @@ $(document).ready(function(){
                 $(".dev").show();
                 });
         });
+
+        $(document).ready(function() {
+            $(".onClick1").click(function() {
+              $("#peach").toggle();
+              $("#click1").toggle();
+            });
 
  $(document).ready(function(){
             $(".dev").click(function(){
@@ -41,17 +47,37 @@ $(document).ready(function(){
                 });
                 });
 
-                // $(".imag1").mouseenter(function(){
-                //     $(".imag1-par").show();
-                // });
-                // $(".imag1").mouseleave(function(){
-                //     $(".imag1-par").hide();
-                // });
+                function submission() {
 
-                // $(document).ready(function(){
-                //     $(".imag1").mouseenter(function(){
-                //         $(this).hover();
-                //         $(".imag1-par").show();
-                //         });
-                //     });
+                    var name = document.getElementById("your-name").value;
+                    var email = document.getElementById("your-email").value;
+                    var text = document.getElementById("your-text").value;
                 
+                    if (name === "") {
+                        alert("Please fill in your name");
+                        return false;
+                
+                    } else if (email === "") {
+                        alert("Please insert your email!");
+                        return false;
+                
+                    } else if (text === "") {
+                
+                        alert("There is no text to submit!");
+                    } else {
+                
+                        alert("We have recieved your message dear " + name + " and we will get back to you");
+                
+                
+                    };
+                }
+
+                $(document).ready(function(){
+                    $(".col-md-3").hover(function(){
+                      $(this).css("opacity", "0.5");
+                      $(this).find(".imag1-par").show();
+                      }, function(){
+                      $(this).css("opacity", "1");
+                      $(this).find(".imag1-par").hide();
+                    });
+                  });
