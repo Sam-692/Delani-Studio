@@ -97,3 +97,9 @@ input, textarea{
   .col-md-4, .amazing{
       font-size: 30px;
   }
+  #your-name{
+      background: none;
+  }
+  #your-email{
+      background: none;
+  }
