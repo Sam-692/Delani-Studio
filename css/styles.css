@@ -1,5 +1,5 @@
 #home{
-    background-image: url(/img/backgrounds/h_img.jpg);
+    background-image: url(../img/backgrounds/h_img.jpg);
     text-align: center;
     color: white;
     width: 100%;
@@ -18,14 +18,14 @@ body{
     font-size: 30px;
 }
 #services{
-    background-image: url(/img/backgrounds/s_image.jpg);
+    background-image: url(../img/backgrounds/s_image.jpg);
     background-size: cover;
     background-position: center;
     color: white;
     width: 100%;
 }
 .contact{
-    background-image: url(/img/backgrounds/c_image.jpg);
+    background-image: url(../img/backgrounds/c_image.jpg);
     text-align: center;
     width: 100%;
 }
@@ -86,6 +86,7 @@ input, textarea{
     color:black;
     font-size: 16px;
     padding: 16px 32px;
+    display: none;
   }
   .cla-ss{
     font-family: 'Akronim';
@@ -93,6 +94,6 @@ input, textarea{
   .what-we-do{
       font-size: 70px;
   }
-  .col-md-4{
+  .col-md-4, .amazing{
       font-size: 30px;
   }

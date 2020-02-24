@@ -1,13 +1,13 @@
-$(document).ready(function(){
-    $(".con").click(function(){
-        $(this).hide();
-        $(".pin").show();
-        });
-        $(".pin").click(function(){
-            $(this).hide();
-            $(".con").show();
-            });
-    });
+// $(document).ready(function(){
+//     $(".con").click(function(){
+//         $(this).hide();
+//         $(".pin").show();
+//         });
+//         $(".pin").click(function(){
+//             $(this).hide();
+//             $(".con").show();
+//             });
+//     });
 
  $(document).ready(function(){
         $(".dev").click(function(){
@@ -19,6 +19,12 @@ $(document).ready(function(){
                 $(".dev").show();
                 });
         });
+
+        $(document).ready(function() {
+            $(".onClick1").click(function() {
+              $("#peach").toggle();
+              $("#click1").toggle();
+            });
 
  $(document).ready(function(){
             $(".dev").click(function(){
