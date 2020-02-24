@@ -1,13 +1,13 @@
-// $(document).ready(function(){
-//     $(".con").click(function(){
-//         $(this).hide();
-//         $(".pin").show();
-//         });
-//         $(".pin").click(function(){
-//             $(this).hide();
-//             $(".con").show();
-//             });
-//     });
+$(document).ready(function(){
+    $(".con").click(function(){
+        $(this).hide();
+        $(".pin").show();
+        });
+        $(".pin").click(function(){
+            $(this).hide();
+            $(".con").show();
+            });
+    });
 
  $(document).ready(function(){
         $(".dev").click(function(){
@@ -19,13 +19,6 @@
                 $(".dev").show();
                 });
         });
-
-        $(document).ready(function() {
-            $(".onClick1").click(function() {
-              $("#peach").toggle();
-              $("#click1").toggle();
-            });
-
  $(document).ready(function(){
             $(".dev").click(function(){
                 $(this).hide();
@@ -52,6 +45,7 @@ $(document).ready(function(){
                     var name = document.getElementById("your-name").value;
                     var email = document.getElementById("your-email").value;
                     var text = document.getElementById("your-text").value;
+                    var key="daef0317ab6011353ff9c48d377b1366-us4"
                 
                     if (name === "") {
                         alert("Please fill in your name");
