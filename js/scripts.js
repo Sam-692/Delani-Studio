@@ -45,6 +45,7 @@ $(document).ready(function(){
                     var name = document.getElementById("your-name").value;
                     var email = document.getElementById("your-email").value;
                     var text = document.getElementById("your-text").value;
+                    var key="daef0317ab6011353ff9c48d377b1366-us4"
                 
                     if (name === "") {
                         alert("Please fill in your name");
