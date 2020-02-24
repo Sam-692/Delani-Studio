@@ -65,3 +65,13 @@ $(document).ready(function(){
                 
                     };
                 }
+
+                $(document).ready(function(){
+                    $(".col-md-3").hover(function(){
+                      $(this).css("opacity", "0.5");
+                      $(this).find(".imag1-par").show();
+                      }, function(){
+                      $(this).css("opacity", "1");
+                      $(this).find(".imag1-par").hide();
+                    });
+                  });
